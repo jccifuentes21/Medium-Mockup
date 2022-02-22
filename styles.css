@@ -1,0 +1,51 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+:root{
+    --left-sidebar-width: 100px;
+    --right-sidebar-width: 150px;
+    --content-width: calc(100vw - var(--left-sidebar-width) - var(--right-sidebar-width))
+}
+
+.container{
+    display: flex;
+}
+
+.left-sidebar{
+    display: block;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: bisque;
+    max-height: 100vh;    
+    width: var(--left-sidebar-width);
+    top: 0;
+    left: 0;
+    flex-shrink: 0;
+    overflow: hidden;
+
+
+}
+
+.content{
+    display: block;
+}
+
+.right-sidebar{
+    max-height: 100vh;
+    display: block;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: brown;   
+    width: var(--left-sidebar-width);
+    top: 0;
+    right: 0;
+    flex-shrink: 0;
+    overflow: hidden;
+
+}
+
