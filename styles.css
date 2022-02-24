@@ -14,6 +14,7 @@ body{
 
 .container{
     display: flex;
+    width: 100%;
 }
 
 .left-sidebar{
@@ -46,22 +47,20 @@ body{
     right: 0;
     flex-shrink: 0;
     overflow: hidden;
-
 }
 
 /* Profile Page CSS */
 
-.profile__header{
+.profile__header {
     display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
-.profile__header--left{
-    display: block;
+.profile__header--left {
+    justify-content: flex-start;
     flex-direction: column;
     padding: 1rem;    
-    top: 0;
-    left: 0;
-    flex-shrink: 0;
     overflow: hidden;
 }
 
@@ -75,21 +74,28 @@ body{
     letter-spacing: 0;    
 }
 
-.profile__header--right{
-    display: block;
+.profile__header--right {
+    justify-content: flex-end;
     flex-direction: column;
     padding: 1rem; 
-    top: 0;
-    right: 0;
-    flex-shrink: 0;
     overflow: hidden;
+}
+
+.profile__menu {
+    width: 100%;
+}
+
+.profile__menu nav {
+    border: none;
 }
 
 .profile__menu ul {
     display: flex;
-    justify-content: space-around; 
+    justify-content: flex-start; 
+    gap: 1rem;
     font-size: 24px; 
     list-style: none;
+    padding-left: 1rem;
 }
 
 .profile__menu a {
@@ -102,12 +108,28 @@ body{
     text-decoration: none;
 }
 
+.hr__bar {
+    font-weight: 400;
+    box-sizing: inherit;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    border: 0;
+    height: 1px;
+    background-color: rgba(230, 230, 230, 1);
+}
+
 .profile__post__date span {
     font-weight: 400;
     color: rgba(117, 117, 117, 1);
     font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 20px;
+    padding: 1rem; 
+}
+
+.profile__post__content {
+    display: flex;
+    width: 100%;
 }
 
 .profile__post__content__description__title h2 {
@@ -117,8 +139,9 @@ body{
     color: rgba(41, 41, 41, 1);
     letter-spacing: 0;
     font-size: 22px;
-    line-height: 28px;
     max-height: 84px;
+    padding: 1rem; 
+    margin: 0%;
 }
 
 .profile__post__content__description__text p {
@@ -131,15 +154,31 @@ body{
     font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
     max-height: 72px;
     letter-spacing: 0;
+    padding: 1rem; 
+}
+
+.profile__post__content__description__buttons {
+    display: flex;
+    width: 100%;
+}
+
+.profile__post__content__description__buttons__left {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.profile__post__content__description__buttons__right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .profile__post__content__description__buttons__tag {
     cursor: pointer;
     fill: rgba(25, 25, 25, 1);
-    box-sizing: inherit;
     font-weight: 400;
     font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    position: relative;
     line-height: 20px;
     color: rgba(41, 41, 41, 1);
     padding: 2px 8px;
@@ -148,6 +187,8 @@ body{
     font-size: 13px;
     white-space: nowrap;
     background-color: rgba(230, 230, 230, 1);
+    margin-left: 1rem;
+
 }
 
 .profile__post__content__description__buttons__read span {
@@ -157,7 +198,76 @@ body{
     color: rgba(117, 117, 117, 1);
     font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 20px;
-    font-size: 13px;    
+    font-size: 13px;  
+    margin: 1rem;  
+}
+
+.profile__post__content__image img {
+    padding: 1rem;
+}
+
+.profile__bottom__post__date span {
+    font-weight: 400;
+    color: rgba(117, 117, 117, 1);
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 1rem; 
+}
+
+.profile__bottom__post__content {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.profile__bottom__post__content__description__title h2 {
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    overflow: hidden;
+    color: rgba(41, 41, 41, 1);
+    letter-spacing: 0;
+    font-size: 22px;
+    max-height: 84px;
+    padding: 1rem; 
+    margin: 0%;
+}
+
+.profile__bottom__post__content__image img {
+    padding: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile__bottom__post__content__description__text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    overflow: hidden;
+    color: rgba(41, 41, 41, 1);
+    text-overflow: ellipsis;
+    font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+    max-height: 72px;
+    letter-spacing: 0;
+    padding: 1rem; 
+}
+
+.profile__bottom__post__content__description__buttons {
+    display: flex;
+    width: 100%;    
+}
+
+.profile__bottom__post__content__description__buttons__left {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.profile__bottom__post__content__description__buttons__right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 /*End Profile Page CSS*/
