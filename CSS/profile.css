@@ -1,0 +1,227 @@
+/* --------------------- */
+/* PROFILE STYLING START */
+
+.profile__header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.profile__header--left {
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 1rem;    
+    overflow: hidden;
+}
+
+.profile__header--left span {
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: rgba(25, 25, 25, 1);
+    word-break: break-word;
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: 0;    
+}
+
+.profile__header--right {
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 1rem; 
+    overflow: hidden;
+}
+
+.profile__menu {
+    width: 100%;
+}
+
+.profile__menu nav {
+    border: none;
+}
+
+.profile__menu ul {
+    display: flex;
+    justify-content: flex-start; 
+    gap: 1rem;
+    font-size: 24px; 
+    list-style: none;
+    padding-left: 1rem;
+}
+
+.profile__menu a {
+    cursor: pointer;
+    font-weight: 400;
+    color: rgba(117, 117, 117, 1);
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.hr__bar {
+    font-weight: 400;
+    box-sizing: inherit;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    border: 0;
+    height: 1px;
+    background-color: rgba(230, 230, 230, 1);
+}
+
+.profile__post__date span {
+    font-weight: 400;
+    color: rgba(117, 117, 117, 1);
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 1rem; 
+}
+
+.profile__post__content {
+    display: flex;
+    width: 100%;
+}
+
+.profile__post__content__description__title h2 {
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    overflow: hidden;
+    color: rgba(41, 41, 41, 1);
+    letter-spacing: 0;
+    font-size: 22px;
+    max-height: 84px;
+    padding: 1rem; 
+    margin: 0%;
+}
+.post_index_title{
+    text-decoration: none;
+}
+
+.profile__post__content__description__text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    overflow: hidden;
+    color: rgba(41, 41, 41, 1);
+    text-overflow: ellipsis;
+    font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+    max-height: 72px;
+    letter-spacing: 0;
+    padding: 1rem; 
+    margin: 0;
+}
+
+.profile__post__content__description__buttons {
+    display: flex;
+    width: 100%;
+}
+
+.profile__post__content__description__buttons__left {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.profile__post__content__description__buttons__right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.profile__post__content__description__buttons__tag {
+    cursor: pointer;
+    fill: rgba(25, 25, 25, 1);
+    font-weight: 400;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 20px;
+    color: rgba(41, 41, 41, 1);
+    padding: 2px 8px;
+    border-radius: 100px;
+    transition: background 300ms ease;
+    font-size: 13px;
+    white-space: nowrap;
+    background-color: rgba(230, 230, 230, 1);
+    margin-left: 1rem;
+
+}
+
+.profile__post__content__description__buttons__read span {
+    cursor: pointer;
+    fill: rgba(25, 25, 25, 1);
+    font-weight: 400;
+    color: rgba(117, 117, 117, 1);
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 20px;
+    font-size: 13px;  
+    margin: 1rem;  
+}
+
+.profile__post__content__image img {
+    padding: 1rem;
+}
+
+.profile__bottom__post__date span {
+    font-weight: 400;
+    color: rgba(117, 117, 117, 1);
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 1rem; 
+}
+
+.profile__bottom__post__content {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.profile__bottom__post__content__description__title h2 {
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    overflow: hidden;
+    color: rgba(41, 41, 41, 1);
+    letter-spacing: 0;
+    font-size: 22px;
+    max-height: 84px;
+    padding: 1rem; 
+    margin: 0%;
+}
+
+.profile__bottom__post__content__image img {
+    padding: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile__bottom__post__content__description__text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    overflow: hidden;
+    color: rgba(41, 41, 41, 1);
+    text-overflow: ellipsis;
+    font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+    max-height: 72px;
+    letter-spacing: 0;
+    padding: 1rem; 
+}
+
+.profile__bottom__post__content__description__buttons {
+    display: flex;
+    width: 100%;    
+}
+
+.profile__bottom__post__content__description__buttons__left {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.profile__bottom__post__content__description__buttons__right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+/* PROFILE STYLING END */
+/* ------------------- */
