@@ -1,0 +1,130 @@
+/* --------------------------- */
+/* HOME PAGE STYLING START */
+
+.index_post_box{ display: flex;}
+
+.index_post_img_date {
+    display: flex;
+    align-items: center;
+}
+
+.bottom-img {
+    padding-right: 10px;
+}
+
+.username_index_post {padding-right: 10px;}
+
+
+ul {
+    margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+li {
+    display: inline-block;
+margin-right: 20px;}
+
+.tag2 {
+    padding: 10px;
+    width: 20px;
+    padding: 0 1.5rem;
+}
+
+.tag1 {
+    padding: 10px;
+    width: 20px;
+    padding: 0 1.5rem;
+}
+.post_index_description{
+    font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+    padding-right: 30px;
+    max-height: 8rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    margin-bottom: 1.5rem;
+}
+
+.post_image{
+    border-radius: 50%;
+}
+
+.post_index_buttons {
+    display: flex;
+
+}
+
+.post_index_title{
+    
+    text-decoration: none;
+    color: black;
+}
+
+.post_index_title h2{
+    margin: 0;
+}
+
+.bottom_index_box{
+    display: flex;
+}
+
+.profile__post__content__image2 {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.index_line {
+    width: 100%;
+    height: 1px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: rgb(192, 192, 192);
+}
+
+.index_line2{
+    width: 100%;
+    height: 1px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    background-color: rgb(192, 192, 192);
+}
+
+.tag {
+    border-radius: 100px;
+    padding: 5px 10px 5px 10px;
+    white-space: nowrap;
+    background-color: rgba(230, 230, 230, 1);
+}
+
+.plusicon {
+    display: flex;
+    padding: 12px;
+    background-color: rgba(242, 242, 242, 1);
+    border-radius: 100px;
+    margin-right: 8px;
+}
+
+.top_index {
+    display: flex;
+    padding: 40px 0 24px;
+    align-items: center;
+}
+
+.top_index_options {
+    display: flex;
+}
+
+.index_options {
+    padding-right: 35px;
+}
+/* HOME PAGE STYLING END */
+/* --------------------- */
