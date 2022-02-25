@@ -191,6 +191,8 @@ body{
 }
 
 .topic-item{
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
     padding: .5rem 1rem;
     border-radius: 100px;
     background-color: rgba(242, 242, 242, 1);
@@ -202,6 +204,11 @@ body{
 .topic-item:hover{
     background-color: rgb(230, 230, 230);
     cursor: pointer;
+}
+
+.who-to-follow h4{
+    margin-top: 40px;
+    margin-bottom: 0;
 }
 
 .who-to-follow-list{
@@ -231,6 +238,7 @@ body{
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
+    color: rgba(117, 117, 117, 1);
     line-height: 20px;
     font-size: 13px;
     margin: 0 .5rem;
@@ -240,6 +248,58 @@ body{
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+.follow-btn{
+    cursor: pointer;
+    padding: 4px 12px 6px;
+    text-decoration: none;
+    border-style: solid;
+    border-color: rgb(117, 117, 117);
+    fill: none;
+    color: black;
+    border-radius: 99em;
+    background-color: transparent;
+}
+
+.follow-btn:hover{
+    color: rgb(8, 8, 8);
+}
+
+.reading-list p{
+    color: rgba(117, 117, 117, 1);
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+.footer-right-sidebar{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 11px;
+    padding-left: 1rem;
+    padding-bottom: .5rem;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-link{
+    padding: 0;
+    padding-right: 0;
+    margin-right: 10px;
+}
+
+.footer-link a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.8);
+}
+
 /* RIGHT SIDEBAR STYLING END */
 /* --------------------------- */
 
