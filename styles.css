@@ -230,6 +230,8 @@ body{
     width: 182px;
     height: 2.5rem;
     overflow: hidden;
+    text-overflow: ellipsis;
+}
 
 .article-header {
     width: 100%;
@@ -442,9 +444,6 @@ body{
     justify-content: center;
 }
 
-    text-overflow: ellipsis;
-}
-
 .follow-btn{
     cursor: pointer;
     padding: 4px 12px 6px;
@@ -543,6 +542,12 @@ margin-right: 20px;}
 .post_index_buttons {
     display: flex;
 
+}
+
+.post_index_title{
+    
+    text-decoration: none;
+    color: black;
 }
 
 .post_index_title h2{
