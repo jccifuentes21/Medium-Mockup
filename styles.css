@@ -230,6 +230,7 @@ body{
     width: 182px;
     height: 2.5rem;
     overflow: hidden;
+}
 
 .article-header {
     width: 100%;
@@ -240,7 +241,12 @@ body{
 }
 
 .profile-img {
+    padding-top: 10px;
     padding-right: 10px;
+}
+
+.profile-img img {
+    border-radius: 70%;
 }
 
 .profile-txt p {
@@ -442,8 +448,35 @@ body{
     justify-content: center;
 }
 
+.credits {
+    display: flex;
+    justify-content: center;
+    color: #626262;
+}
+
+.list-art2 ul {
+    font-style: italic;
+}
+
+.list2-art2 ul {
+    font-style: italic;
+}
+
+.list3-art2 ul {
+    font-style: italic;
+}
+
+.head-art2 {
+    color: #626262;
+    display: flex;
+    justify-content: center;
+}
+
+
     text-overflow: ellipsis;
 }
+
+
 
 .follow-btn{
     cursor: pointer;
