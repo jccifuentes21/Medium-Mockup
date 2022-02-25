@@ -1,6 +1,5 @@
 /* --------------------------- */
 /* ARTICLE STYLING START */
-
 .article-header {
     width: 100%;
     height: 70px;
@@ -10,7 +9,12 @@
 }
 
 .profile-img {
+    padding-top: 10px;
     padding-right: 10px;
+}
+
+.profile-img img {
+    border-radius: 70%;
 }
 
 .profile-txt p {
@@ -211,6 +215,31 @@
     display: flex;
     justify-content: center;
 }
+
+.credits {
+    display: flex;
+    justify-content: center;
+    color: #626262;
+}
+
+.list-art2 ul {
+    font-style: italic;
+}
+
+.list2-art2 ul {
+    font-style: italic;
+}
+
+.list3-art2 ul {
+    font-style: italic;
+}
+
+.head-art2 {
+    color: #626262;
+    display: flex;
+    justify-content: center;
+}
+
 
 /* ARTICLE STYLING END */
 /* --------------------------- */
