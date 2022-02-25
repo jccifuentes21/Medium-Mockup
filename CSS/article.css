@@ -212,48 +212,5 @@
     justify-content: center;
 }
 
-.follow-btn{
-    cursor: pointer;
-    padding: 4px 12px 6px;
-    text-decoration: none;
-    border-style: solid;
-    border-color: rgb(117, 117, 117);
-    color: rgb(117, 117, 117);
-    border-radius: 99em;
-    background-color: transparent;
-}
-
-.follow-btn:hover{
-    color: rgb(8, 8, 8);
-}
-
-.footer{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    font-size: .8rem;
-    padding-left: 1rem;
-    padding-bottom: .5rem;
-}
-
-.footer .footer-list{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    list-style: none;
-    
-}
-
-.footer-link{
-    padding: 0;
-    padding-right: .5rem;
-}
-
-.footer-link a{
-    text-decoration: none;
-    color: rgba(0,0,0,0.8);
-}
-
 /* ARTICLE STYLING END */
 /* --------------------------- */
